@@ -37,12 +37,6 @@
       font-weight: 300px;
       font-size: 1rem;
       text-align: left; }
-  .hero-content .hero-img {
-    display: flex;
-    justify-content: space-around; }
-    .hero-content .hero-img img {
-      width: 350px;
-      padding-top: 50px; }
 
 /* Cards */
 .productos-cards {
@@ -128,18 +122,25 @@
   background-image: url("../media/forma-fondo-index.png");
   background-repeat: no-repeat; }
 
+.home {
+  display: flex;
+  justify-content: space-around; }
+  .home img {
+    width: 350px;
+    padding-top: 50px; }
+
 /*Media queries*/
 @media (max-width: 768px) {
   /*Tamaño mediano*/
   .home img {
     width: 400px;
-    padding: 50px; } }
+    padding: auto; } }
 
 @media (max-width: 420px) {
   /*Tamaño chico*/
   .home img {
     width: 300px;
-    padding: 50px; } }
+    padding: auto; } }
 
 /*Body*/
 .contacto-body {
@@ -247,19 +248,29 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem; }
 
-/*Body*/
+/* Body */
 .sobre-mi-body {
   background-color: #ffffff;
   background-image: url("../media/forma-fondo-sobre-mi.jpg");
   background-position: top right;
   background-repeat: no-repeat; }
 
-/*Sections*/
+/* Hero content */
+.hero-img-sobre-mi {
+  display: flex;
+  justify-content: space-around; }
+  .hero-img-sobre-mi img {
+    width: 350px;
+    padding-top: 50px; }
+
+/* Sections */
 .seccion-sobre-mi {
   display: flex;
   justify-content: space-evenly; }
 
 .imagen-sobre-mi {
+  display: flex;
+  justify-content: space-around;
   padding: 50px; }
 
 .texto-sobre-mi {
@@ -278,12 +289,31 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem; }
 
+/* Media queries */
+@media (max-width: 768px) {
+  /*Tamaño mediano*/
+  .hero-img-sobre-mi img {
+    width: 200px;
+    padding: auto; }
+  .imagen-sobre-mi img {
+    width: 300px;
+    padding: auto; } }
+
+@media (max-width: 420px) {
+  /*Tamaño chico*/
+  .hero-img-sobre-mi img {
+    width: 100;
+    padding: auto; }
+  .imagen-sobre-mi img {
+    width: 200px;
+    padding: auto; } }
+
 .footer {
   background-color: #282828;
   color: #ffffff;
   align-items: center;
-  margin-top: 100px;
-  padding: 10px 10px; }
+  margin-top: 50px;
+  padding: 20px 10px; }
   .footer p {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
