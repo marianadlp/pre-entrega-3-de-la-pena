@@ -24,16 +24,15 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.texto-sobre-mi h2{
-    font-family: 'Playfair Display';
-    font-weight: bold;
-    font-size: 2rem;
-    padding: 40px 0;
-    text-align: left;  
-}
-.texto-sobre-mi p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    h2{
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 40px 0;
+        text-align: left;  
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
 }

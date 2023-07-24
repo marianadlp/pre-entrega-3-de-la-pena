@@ -1,6 +1,6 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
 /* Hero content */
@@ -9,44 +9,43 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-h1{
-    font-family: 'Playfair Display';
-    font-weight: bold;
-    font-size: 2.5rem;
-    text-align: left;
-    padding-top: 100px;
-    padding-left:50px;
-}
-.bajada-hero{
-    padding: 50px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-}
-.boton-principal{
-    background-color: #861657;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 20px 50px;
-    border: none;
-    color: #ffffff;
-}
-.boton-principal a{
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    text-align: left;
-}
-
-.hero-img{
-    display: flex;
-    justify-content: space-around;
-}
-.hero-img img{
-    width: 350px;
-    padding-top: 50px;
+    h1{
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: left;
+        padding-top: 100px;
+        padding-left:50px;
+    }
+    .bajada-hero{
+        padding: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+    .boton-principal{
+        background-color: #861657;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 20px 50px;
+        border: none;
+        color: #ffffff;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300px;
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+    .hero-img{
+        display: flex;
+        justify-content: space-around;
+        img{
+            width: 350px;
+            padding-top: 50px;
+        }
+    } 
 }
 
 /* Cards */
@@ -65,7 +64,6 @@ h1{
     border-bottom: 2px solid #282828;
 }
 
-
 .cards{
     background-color: #aff0ff;
     width: 250px;
@@ -74,18 +72,16 @@ h1{
     text-align: center;
     margin: auto;
     margin: 20px;
-}
-
-.cards h2{
-    padding: 10px 0;
-    font-family: 'Playfair Display';
-    font-weight: bold;
-}
-
-.cards p{
-    line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
-    padding: 10px 0;
+    h2{
+        padding: 10px 0;
+        font-family: 'Playfair Display';
+        font-weight: bold;
+    }
+    p{
+        line-height: 1.5;
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px 0;
+    }
 }
 
 .img{
@@ -102,14 +98,13 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding: 10px;
+    a{
+        text-decoration: none;
+        color: #861657;
+        font-size: 1rem;
+        text-align: left;
+    }
  }
-
- .boton-cards a{
-    text-decoration: none;
-    color: #861657;
-    font-size: 1rem;
-    text-align: left;
-}
 
 /*Media queries*/
 

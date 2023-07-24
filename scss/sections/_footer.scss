@@ -4,34 +4,29 @@
     align-items: center;
     margin-top: 100px;
     padding: 10px 10px;
-
-}
-
-footer p{
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-}
-footer .redes-sociales{
-    padding: 20px 20px;
-}
-.footer-redes img{
-    width: 5rem;
-}
-
-.texto-copyright{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.logo-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logo-footer img{
-    width: 5rem;
+    p{
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+    .redes-sociales{
+        padding: 20px 20px;
+    }
+    img{
+        width: 5rem;
+    }
+    .texto-copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .logo-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 5rem;
+        }
+    }
 }
