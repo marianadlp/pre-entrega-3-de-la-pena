@@ -18,6 +18,11 @@
 
 /*Sections*/
 
+.fondo-blanco{
+    background-color: #fff;
+    padding: 10%;
+}
+
 .seccion-productos{
     margin-top: 100px;
 }
@@ -39,6 +44,12 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
     }
+}
+
+/* Footer productos*/
+
+.footer-productos{
+    margin-top: 0 !important;
 }
 
 /* Media queries */
