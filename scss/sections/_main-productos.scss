@@ -6,6 +6,16 @@
     background-repeat: no-repeat; 
 }
 
+/* Hero content*/
+
+.hero-img-productos{
+    img{
+        max-width: 250px;
+        padding: auto;
+
+    }
+} 
+
 /*Sections*/
 
 .seccion-productos{
@@ -30,3 +40,20 @@
         font-size: 1rem;
     }
 }
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img-productos img {
+        width: 150px;
+        padding: auto;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img-productos img {
+        width: 70px;
+        padding: auto;
+    }
+}  

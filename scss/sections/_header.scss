@@ -13,3 +13,10 @@
     --bs-navbar-active-color: #fbe5e2;
 
 }
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+}

@@ -7,6 +7,16 @@
     background-position: top right;
 }
 
+/* Hero content*/
+
+.hero-img-preguntas{
+    img{
+        max-width: 250px;
+        padding: auto;
+
+    }
+} 
+
 /*Accordion*/
 
 .preguntas-frecuentes{
@@ -32,3 +42,20 @@
 .accordion-body{
     font-family: 'Montserrat'; 
 }
+
+/* Media queries */
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img-preguntas img {
+        width: 150px;
+        padding: auto;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img-preguntas img {
+        width: 70px;
+        padding: auto;
+    }
+}  

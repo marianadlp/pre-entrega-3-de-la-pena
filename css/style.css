@@ -7,6 +7,10 @@
   box-sizing: border-box; }
 
 /* Fonts */
+/* Main*/
+main {
+  margin-top: 10%; }
+
 /* Hero content */
 .hero-content {
   display: flex;
@@ -89,6 +93,8 @@
 /*Media queries*/
 @media (max-width: 768px) {
   /*Tamaño mediano*/
+  main {
+    margin-top: 15%; }
   .hero-content {
     flex-direction: column-reverse;
     text-align: center; }
@@ -97,6 +103,8 @@
 
 @media (max-width: 420px) {
   /*Tamaño chico*/
+  main {
+    margin-top: 25%; }
   .hero-content {
     flex-direction: column-reverse;
     text-align: center; }
@@ -117,6 +125,13 @@
 .navbar-dark, .navbar[data-bs-theme=dark] {
   --bs-navbar-hover-color: #fbe5e2;
   --bs-navbar-active-color: #fbe5e2; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%; }
 
 /*Body*/
 .index-body {
@@ -241,6 +256,11 @@
   background-repeat: no-repeat;
   background-position: top right; }
 
+/* Hero content*/
+.hero-img-preguntas img {
+  max-width: 250px;
+  padding: auto; }
+
 /*Accordion*/
 .preguntas-frecuentes {
   margin: 3rem; }
@@ -261,11 +281,29 @@
 .accordion-body {
   font-family: 'Montserrat'; }
 
+/* Media queries */
+@media (max-width: 768px) {
+  /*Tamaño mediano*/
+  .hero-img-preguntas img {
+    width: 150px;
+    padding: auto; } }
+
+@media (max-width: 420px) {
+  /*Tamaño chico*/
+  .hero-img-preguntas img {
+    width: 70px;
+    padding: auto; } }
+
 /*Body*/
 .productos-body {
   background-color: #fbe5e2;
   background-image: url("../media/forma-fondo-productos.png");
   background-repeat: no-repeat; }
+
+/* Hero content*/
+.hero-img-productos img {
+  max-width: 250px;
+  padding: auto; }
 
 /*Sections*/
 .seccion-productos {
@@ -287,6 +325,19 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem; }
 
+/* Media queries */
+@media (max-width: 768px) {
+  /*Tamaño mediano*/
+  .hero-img-productos img {
+    width: 150px;
+    padding: auto; } }
+
+@media (max-width: 420px) {
+  /*Tamaño chico*/
+  .hero-img-productos img {
+    width: 70px;
+    padding: auto; } }
+
 /* Body */
 .sobre-mi-body {
   background-color: #ffffff;
@@ -299,7 +350,7 @@
   display: flex;
   justify-content: space-around; }
   .hero-img-sobre-mi img {
-    width: 350px;
+    width: 300px;
     padding-top: 50px; }
 
 /* Sections */
