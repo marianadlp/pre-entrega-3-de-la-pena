@@ -1,0 +1,39 @@
+/*Body*/
+
+.sobre-mi-body{
+    background-color: #ffffff;
+    background-image: url("../media/forma-fondo-sobre-mi.jpg");
+    background-position: top right;
+    background-repeat: no-repeat; 
+}
+
+/*Sections*/
+
+.seccion-sobre-mi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-sobre-mi{
+    padding: 50px;
+}
+
+.texto-sobre-mi{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.texto-sobre-mi h2{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 40px 0;
+    text-align: left;  
+}
+.texto-sobre-mi p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}

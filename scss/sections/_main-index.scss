@@ -1,0 +1,24 @@
+/*Body*/
+
+.index-body{
+    background-color: #fbe5e2;
+    background-image: url("../media/forma-fondo-index.png");
+    background-repeat: no-repeat; 
+}
+
+/*Media queries*/
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .home img {
+        width: 400px;
+        padding: 50px;
+    }
+}
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .home img {
+        width: 300px;
+        padding: 50px;
+    }
+}   

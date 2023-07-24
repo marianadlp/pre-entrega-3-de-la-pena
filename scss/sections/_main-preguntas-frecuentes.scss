@@ -1,0 +1,34 @@
+/* Body */
+
+.preguntas-frecuentes-body{
+    background-color: #fbe5e2;
+    background-image: url("../media/forma-fondo-preguntas-frecuentes.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/*Accordion*/
+
+.preguntas-frecuentes{
+    margin: 3rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #282828;
+    background-color: #aff0ff;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-border-color: #861657;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0rem rgba(13, 109, 253, 0);
+}
+
+.accordion-button{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-family: 'Montserrat'; 
+}

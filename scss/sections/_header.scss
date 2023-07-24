@@ -1,0 +1,15 @@
+/* Menú de navegación */
+.nav-link{
+    font-family: 'Montserrat' !important;
+    color: #ffffff;
+}
+.dropdown-menu{
+    --bs-dropdown-link-active-color: #282828;
+    --bs-dropdown-link-active-bg: #afafaf;
+    --bs-dropdown-link-hover-color: #fbe5e2;
+}
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-hover-color: #fbe5e2;
+    --bs-navbar-active-color: #fbe5e2;
+
+}

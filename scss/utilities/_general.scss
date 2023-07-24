@@ -1,0 +1,132 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+/* Hero content */
+
+.hero-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: left;
+    padding-top: 100px;
+    padding-left:50px;
+}
+.bajada-hero{
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.boton-principal{
+    background-color: #861657;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 50px;
+    border: none;
+    color: #ffffff;
+}
+.boton-principal a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-img img{
+    width: 350px;
+    padding-top: 50px;
+}
+
+/* Cards */
+
+.productos-cards{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cards-title{
+    text-align: center;
+    margin:10px;
+    padding-bottom: 15px !important;
+    border-bottom: 2px solid #282828;
+}
+
+
+.cards{
+    background-color: #aff0ff;
+    width: 250px;
+    border-radius: 30px;
+    padding: 40px 20px;
+    text-align: center;
+    margin: auto;
+    margin: 20px;
+}
+
+.cards h2{
+    padding: 10px 0;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.cards p{
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+}
+
+.img{
+    text-align: center;
+    margin:10px;
+ }
+
+.boton-cards{
+    background-color: #ffffff00;
+    border-radius: 20px;
+    border: 2px solid #861657;
+    width: auto;
+    color: #861657;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+ }
+
+ .boton-cards a{
+    text-decoration: none;
+    color: #861657;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/*Media queries*/
+
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+    .hero-img img {
+        width: 200px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    /*Tamaño chico*/
+    .hero-img img {
+        width: 100px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+}    
