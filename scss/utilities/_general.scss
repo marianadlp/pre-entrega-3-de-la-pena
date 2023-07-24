@@ -32,7 +32,7 @@ main{
         background-color: #861657;
         border-radius: 20px;
         padding: 10px;
-        border: none;
+        border: 2px solid #861657;
         color: #ffffff;
         a{
             text-decoration: none;
@@ -41,6 +41,15 @@ main{
             font-weight: 300px;
             font-size: 1rem;
             text-align: left;
+        }
+    }
+    .boton-principal:hover{
+        background-color: #ffffff;
+        border: 2px solid #861657;
+        a{
+            color:#861657;
+            background-color: #ffffff;
+            font-weight: 700;
         }
     }
 }
@@ -81,6 +90,11 @@ main{
     }
 }
 
+.cards:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s ease;
+  }
+
 .img{
     text-align: center;
     margin:10px;
@@ -102,6 +116,17 @@ main{
         text-align: left;
     }
  }
+
+ .boton-cards:hover{
+    background-color: #861657;
+    border: 2px solid #861657;
+    a{
+        color:#ffffff;
+        background-color: #861657;
+        font-weight: 700;
+    }
+}
+
 
 /*Media queries*/
 

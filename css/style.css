@@ -31,7 +31,7 @@ main {
     background-color: #861657;
     border-radius: 20px;
     padding: 10px;
-    border: none;
+    border: 2px solid #861657;
     color: #ffffff; }
     .hero-content .boton-principal a {
       text-decoration: none;
@@ -40,6 +40,13 @@ main {
       font-weight: 300px;
       font-size: 1rem;
       text-align: left; }
+  .hero-content .boton-principal:hover {
+    background-color: #ffffff;
+    border: 2px solid #861657; }
+    .hero-content .boton-principal:hover a {
+      color: #861657;
+      background-color: #ffffff;
+      font-weight: 700; }
 
 /* Cards */
 .productos-cards {
@@ -71,6 +78,10 @@ main {
     font-family: 'Montserrat', sans-serif;
     padding: 10px 0; }
 
+.cards:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease; }
+
 .img {
   text-align: center;
   margin: 10px; }
@@ -89,6 +100,14 @@ main {
     color: #861657;
     font-size: 1rem;
     text-align: left; }
+
+.boton-cards:hover {
+  background-color: #861657;
+  border: 2px solid #861657; }
+  .boton-cards:hover a {
+    color: #ffffff;
+    background-color: #861657;
+    font-weight: 700; }
 
 /*Media queries*/
 @media (max-width: 768px) {
@@ -212,6 +231,12 @@ main {
       font-weight: 300px;
       font-size: 1rem;
       text-align: left; }
+  .seccion-form .boton-principal:hover {
+    background-color: #ffffff;
+    border: 2px solid #861657;
+    color: #861657;
+    background-color: #ffffff;
+    font-weight: 700; }
   .seccion-form .boton-secundario {
     background-color: #fff;
     border-radius: 20px;
@@ -227,6 +252,11 @@ main {
       color: #861657;
       font-size: 1rem;
       text-align: left; }
+  .seccion-form .boton-secundario:hover {
+    background-color: #861657;
+    border: 2px solid #861657;
+    color: #ffffff;
+    font-weight: 700; }
 
 /* Media queries */
 @media (max-width: 768px) {
