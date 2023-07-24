@@ -9,24 +9,23 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
     h1{
         font-family: 'Playfair Display';
         font-weight: bold;
         font-size: 2.5rem;
         text-align: left;
-        padding-top: 100px;
-        padding-left:50px;
+        padding: auto;
     }
     .bajada-hero{
-        padding: 50px;
         font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
+        padding: 20px 0;
     }
     .boton-principal{
         background-color: #861657;
         border-radius: 20px;
         padding: 10px;
-        margin: 20px 50px;
         border: none;
         color: #ffffff;
         a{
@@ -102,18 +101,23 @@
 
 @media (max-width: 768px) {
     /*Tamaño mediano*/
-    .hero-img img {
-        width: 200px;
-        padding-top: 0px;
-        padding-bottom: 50px;
+    .hero-content{
+        flex-direction: column-reverse;
+        text-align: center;
+        h1{
+            text-align: center;
+        }
     }
 }
 
 @media (max-width: 420px) {
     /*Tamaño chico*/
-    .hero-img img {
-        width: 100px;
-        padding-top: 0px;
-        padding-bottom: 50px;
+    .hero-content{
+        flex-direction: column-reverse;
+        text-align: center;
+        h1{
+            text-align: center;
+            padding: 0;
+        }
     }
 }    
